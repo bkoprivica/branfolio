@@ -1,0 +1,88 @@
+Uri: https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js
+File Name: C:\Downloaded Web Sites\ryandebeasi.com\ajax\jQuery\jquery-1.7.min.js
+Content Type: application/javascript
+
+Uri: https://ryandebeasi.com/
+File Name: C:\Downloaded Web Sites\ryandebeasi.com\index.htm
+Content Type: text/html
+
+Uri: https://ryandebeasi.com/contact/
+File Name: C:\Downloaded Web Sites\ryandebeasi.com\contact\index.htm
+Content Type: text/html
+
+Uri: https://ryandebeasi.com/lib/css/main.css
+File Name: C:\Downloaded Web Sites\ryandebeasi.com\lib\css\main.css
+Content Type: text/css
+
+Uri: https://ryandebeasi.com/lib/img/avatar.png
+File Name: C:\Downloaded Web Sites\ryandebeasi.com\lib\img\avatar.png
+Content Type: image/png
+
+Uri: https://ryandebeasi.com/lib/img/background.png
+File Name: C:\Downloaded Web Sites\ryandebeasi.com\lib\img\background.png
+Content Type: image/png
+
+Uri: https://ryandebeasi.com/lib/img/logo.svg
+File Name: C:\Downloaded Web Sites\ryandebeasi.com\lib\img\logo.svg
+Content Type: image/svg+xml
+
+Uri: https://ryandebeasi.com/resume/
+File Name: C:\Downloaded Web Sites\ryandebeasi.com\resume\index.htm
+Content Type: text/html
+
+Uri: https://ryandebeasi.com/site.webmanifest
+File Name: C:\Downloaded Web Sites\ryandebeasi.com\site.webmanifest
+Content Type: application/octet-stream
+
+Uri: https://ryandebeasi.com/touch-icon.png
+File Name: C:\Downloaded Web Sites\ryandebeasi.com\touch-icon.png
+Content Type: image/png
+
+Uri: https://ryandebeasi.com/words/
+File Name: C:\Downloaded Web Sites\ryandebeasi.com\words\index.htm
+Content Type: text/html
+
+Uri: https://ryandebeasi.com/words/faster/
+File Name: C:\Downloaded Web Sites\ryandebeasi.com\words\faster\index.htm
+Content Type: text/html
+
+Uri: https://ryandebeasi.com/words/faster/img/after.png
+File Name: C:\Downloaded Web Sites\ryandebeasi.com\words\faster\img\after.png
+Content Type: image/png
+
+Uri: https://ryandebeasi.com/words/faster/img/before.png
+File Name: C:\Downloaded Web Sites\ryandebeasi.com\words\faster\img\before.png
+Content Type: image/png
+
+Uri: https://ryandebeasi.com/words/faster/img/cuddling.jpg
+File Name: C:\Downloaded Web Sites\ryandebeasi.com\words\faster\img\cuddling.jpg
+Content Type: image/jpeg
+
+Uri: https://ryandebeasi.com/words/faster/img/lab.jpg
+File Name: C:\Downloaded Web Sites\ryandebeasi.com\words\faster\img\lab.jpg
+Content Type: image/jpeg
+
+Uri: https://ryandebeasi.com/words/faster/img/running.jpg
+File Name: C:\Downloaded Web Sites\ryandebeasi.com\words\faster\img\running.jpg
+Content Type: image/jpeg
+
+Uri: https://ryandebeasi.com/words/faster/img/sleeping.jpg
+File Name: C:\Downloaded Web Sites\ryandebeasi.com\words\faster\img\sleeping.jpg
+Content Type: image/jpeg
+
+Uri: https://ryandebeasi.com/words/faster/modernizr.custom.js
+File Name: C:\Downloaded Web Sites\ryandebeasi.com\words\faster\modernizr.custom.js
+Content Type: application/javascript
+
+Uri: https://ryandebeasi.com/words/faster/presentation.css
+File Name: C:\Downloaded Web Sites\ryandebeasi.com\words\faster\presentation.css
+Content Type: text/css
+
+Uri: https://ryandebeasi.com/words/faster/presentation.js
+File Name: C:\Downloaded Web Sites\ryandebeasi.com\words\faster\presentation.js
+Content Type: application/javascript
+
+Uri: https://ryandebeasi.com/words/ontheladderup.pdf
+File Name: C:\Downloaded Web Sites\ryandebeasi.com\words\ontheladderup.pdf
+Content Type: application/pdf
+

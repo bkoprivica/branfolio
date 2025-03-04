@@ -1,0 +1,372 @@
+﻿@media screen {
+
+	/* Basics */
+
+	body {
+		/* Didone stack from https://modernfontstacks.com/ */
+		font-family: Didot, 'Bodoni MT', 'Noto Serif Display', 'URW Palladio L', P052, Sylfaen, serif;
+		font-size: 18px;
+		padding-top:15px;
+		margin:0;
+		background:#e2e2e2 url('../img/background.png');
+	}
+
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.position {
+		font-style: italic;
+	}
+
+	#container {
+		margin: 0 auto 0 auto;
+		max-width:1150px;
+		min-width:470px;
+		overflow:hidden;
+	}
+
+	a {
+		color:#185c7a;
+		font-weight:700;
+		-o-transition: color .3s;
+		-ms-transition: color .3s;
+		-moz-transition: color .3s;
+		-webkit-transition: color .3s;
+		transition: color .3s;
+	}
+	
+	a:hover {
+		color: #299acc;
+	}
+
+	dt {
+		font-size: 1.3em;
+		margin: 1em 0 .25em 0;
+		color:#808080;
+		font-weight: 400;
+	}
+
+	dt:first-child {
+		margin-top: 0;
+	}
+
+	ul {
+		list-style-type:square;
+	}
+
+	li {
+		margin-bottom: 0.5em;
+	}
+
+	/* Headings */
+
+	h1, h2, h3, h4, h5, h6,
+	dt {
+		/* Rounded Sans from https://modernfontstacks.com/ */
+		font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
+		font-weight:400;
+	}
+
+	h1 {
+		font-size: 3.5em;
+		margin: 0;
+	}
+
+	h2 {
+		color:#808080;	
+	}
+
+	h4 {
+		color:#808080;	
+	}
+
+	h6 {
+		color:#808080;	
+	}
+
+	.article {
+		width:60%;
+		float:left;
+		border:1px solid #CCC;
+		background-color:#FFFFFF;
+		-webkit-box-shadow: 0px 5px 8px #666;
+		-moz-box-shadow: 0px 5px 8px #666;
+		box-shadow: 0px 5px 8px #666;
+		padding:2.5%;
+		margin-left:5%;
+		margin-bottom: 2em;
+		line-height: 1.5;
+	}
+
+	/* Google Font Web Font Loader */
+
+	.wf-loading {
+		visibility: hidden;
+	}
+
+	/* Navigation and Logo */
+
+	.nav {
+		float:right;
+		width: 20%;
+		margin-right: 5%;
+	}
+	
+	.nav a {
+		display: block;
+		text-decoration: none;
+		padding-top: .25em;
+		text-indent: .25em;
+		-moz-transition: background-color .3s;
+		-webkit-transition: background-color .3s;
+		-o-transition: background-color .3s;
+		-ms-transition: background-color .3s;
+		transition: background-color .3s;
+	}
+
+	.nav a:hover {
+		background-color: rgba(0,0,0,.05);
+	}
+
+	.nav ul
+	{
+		list-style-type: none;
+		padding:0;
+		margin:0;
+	}
+
+	.nav li
+	{
+		font-size:1.6em;
+	}
+
+	.nav li {
+		margin: 0 0 1em 0;
+		padding:0;
+		border-bottom: 2px solid #C1C1C1;
+	}
+
+	.nav li#home {
+		border: none;
+	}
+
+	.nav li#home a {
+		text-indent: -9999px;
+		background: url('../img/logo.svg') no-repeat center top;
+		height: 100px;
+		width: 100px;
+		background-size: 100% 100%;
+		margin: 0 auto 1.75em auto;
+		padding: 0;
+		display:block;
+	}
+
+	/* images & thumbnails */
+
+	ul.thumbs {
+		padding:0;
+		margin-bottom: 0;
+		list-style-type:none;
+		clear:both;
+	}
+
+	/* Micro clearfix - http://nicolasgallagher.com/micro-clearfix-hack/ */	
+	ul.thumbs:before,
+	ul.thumbs:after {
+	    content:"";
+	    display:table;
+	}
+
+	ul.thumbs:after {
+	    clear:both;
+	}
+
+	ul.thumbs li {
+		float:left;
+		width:22%;
+		margin: 1% 0 1% 4%;
+	}
+
+	ul.thumbs img {
+		width: 100%;
+		height: auto;
+	}
+
+	ul.thumbs li:first-child {
+		margin-left:0;
+	}
+
+	div.thumbs {
+		width:100%;
+	}
+
+	img.full {
+		margin-top: .5em;
+		border: 1px solid #ccc;
+	}
+
+	ul.thumbs a {
+		display: block;
+	}
+
+	.avatar {
+		max-width: 125px;
+		float: left;
+		margin-bottom: 10px;
+		margin-right: 10px;
+	}
+
+	.projectList {
+		clear: both;
+	}
+
+	ul.thumbs a > img {
+		opacity: 1;
+		-o-transition: opacity .3s;
+		-ms-transition: opacity .3s;
+		-moz-transition: opacity .3s;
+		-webkit-transition: opacity .3s;
+		transition: opacity .3s;
+	}
+
+	ul.thumbs a:hover > img {
+		opacity: .8;
+	}
+
+	/* Utility classes */
+
+	.print-only {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	/* Small-screen styles */
+	
+	body {
+		padding-top: 10px;
+	}
+
+	h1 {
+		font-size: 2.5em;
+	}
+	
+	.nav {
+		float: none;
+		width: auto;
+		margin: 0 auto;
+		padding: 0 2.5%;
+	}
+	
+	.nav li {
+		border-bottom: none;
+		margin: .78em 0 0 .8em;
+		float: left;
+		font-size: .9em;
+	}
+
+	.nav li:first-child + li { /* The actual first child is the logo. */
+		margin-left: 0;
+	}
+
+	.nav a {
+		padding-top: 0;
+	}
+	
+	.nav ul {
+		width: 100%;
+		margin-bottom: 10px; /* matches up with 10px padding top on body */
+	}
+	
+	.nav li#home a {
+		margin: 0;
+		width: 40px;
+		height: 40px;
+	}
+	
+	.nav li#home {
+		float: right;
+		margin: 0;
+	}
+	
+	.nav ul:before,
+	.nav ul:after {
+	    content:"";
+	    display:table;
+	}
+
+	.nav ul:after {
+	    clear:both;
+	}
+
+	#container {
+		min-width: 200px;
+	}
+	
+	.article {
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+		width: 90%;
+	}
+
+	ul.thumbs li {
+		width: 49%;
+		margin: 1% 0 0 0;
+	}
+
+	ul.thumbs {
+		margin-bottom: 1%;
+	}
+
+	.avatar {
+		max-width: 100px;
+	}
+
+	ul.thumbs li:nth-child(even) {
+		margin-left: 2%;
+	}
+}
+
+@media print {
+	.nav {
+		display:none;
+	}
+
+	/* thumbnails */
+
+	ul.thumbs {
+		padding:0;
+		list-style-type:none;
+		clear:right;
+	}
+
+	ul.thumbs li {
+		float:left;
+		width:22%;
+		margin-left: 4%;
+		margin-top: 0pt;
+		margin-bottom: 14pt;
+	}
+
+	ul.thumbs li:first-child {
+		margin-left:0;
+	}
+
+	ul.thumbs li img {
+		width:100%;
+	}
+
+	div.thumbs {
+		margin:auto;
+		width:100%;
+	}
+}
+
+/* Mastodon verification */
+
+.verification {
+	display: none;
+}
