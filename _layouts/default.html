@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | Bran Kop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/lib/css/main.css">
+  <link rel="apple-touch-icon" href="{{ site.baseurl }}/touch-icon.png">
+  <link rel="manifest" href="{{ site.baseurl }}/site.webmanifest">
+</head>
+<body>
+  <div id="container">
+    <div class="nav">
+      <ul>
+	<li id="home"><a href="{{ '/' | relative_url }}">Hello!</a></li>
+	<li><a href="{{ '/words' | relative_url }}">Words</a></li>
+	<li><a href="{{ '/resume' | relative_url }}">Resume</a></li>
+	<li><a href="{{ '/contact' | relative_url }}">Contact</a></li>
+      </ul>
+    </div><!-- /.nav -->
+    <div class="article">
+      {{ content }}
+    </div><!-- /.article -->
+  </div><!-- /#container -->
+</body>
+</html>
+

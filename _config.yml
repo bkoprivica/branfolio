@@ -1,0 +1,7 @@
+title: Bran Kop
+description: Bran Kop's personal website
+baseurl: ""            # if you are hosting at the repository root
+url: "https://bkoprivica.github.io/branfolio"
+include:
+  - _pages
+markdown_ext: "md,html,htm" # If keeping .htm files

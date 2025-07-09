@@ -1,0 +1,18 @@
+# Jekyll build artifacts
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Dependency directories
+node_modules/
+.bundle/
+vendor/
+
+# Lock and config files
+Gemfile.lock
+package-lock.json
+
+# System files
+.DS_Store
+
