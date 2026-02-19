@@ -5,15 +5,12 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<!-- CRITICAL: project-site base path for ALL relative URLs -->
-	<base href="/branfolio/">
-
-	<link rel="stylesheet" type="text/css" href="lib/css/main.css">
-	<link rel="apple-touch-icon" href="touch-icon.png">
-	<link rel="manifest" href="site.webmanifest">
+	<link rel="stylesheet" type="text/css" href="../../lib/css/main.css">
+	<link rel="apple-touch-icon" href="../../touch-icon.png">
+	<link rel="manifest" href="../../site.webmanifest">
 
 	<style>
-		/* Minimal, page-scoped styling only for the LinkedIn embed */
+		/* Keep styling minimal so main.css stays in control */
 		.linkedin-embed { max-width: 520px; }
 		.linkedin-embed iframe { border: 0; width: 504px; max-width: 100%; }
 	</style>
@@ -22,21 +19,16 @@
 	<div id="container">
 		<div class="nav">
 			<ul>
-				<li><a href="index.htm">Hello!</a></li>
-				<li><a href="words/index.htm">Words</a></li>
-				<li><a href="resume/index.htm">Resume</a></li>
-				<li id="home"><a href="startup/eformspub/index.htm">eFormsHub</a></li>
-				<li><a href="contact/index.htm">Contact</a></li>
+				<li id="home"><a href="../../index.htm">Hello!</a></li>
+				<li><a href="../../words/index.htm">Words</a></li>
+				<li><a href="../../resume/index.htm">Resume</a></li>
+				<li><a href="../eformshub/index.htm">eFormsHub</a></li>
+				<li><a href="../../contact/index.htm">Contact</a></li>
 			</ul>
 		</div><!-- /.nav -->
 
 		<div class="article">
 			<h1>eForms Hub</h1>
-
-			<p>
-				This page publicly archives my LinkedIn announcement and comment thread.
-				If the embed does not load due to browser privacy controls, use the direct link below.
-			</p>
 
 			<div class="linkedin-embed">
 				<iframe
@@ -50,7 +42,7 @@
 			</div>
 
 			<p>
-				Direct link:
+				If the embed does not load, open it directly:
 				<a href="https://www.linkedin.com/feed/update/urn:li:share:7424346090839146497" target="_blank" rel="noopener noreferrer">
 					View the full post and comments on LinkedIn
 				</a>
